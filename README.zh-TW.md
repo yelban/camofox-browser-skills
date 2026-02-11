@@ -19,11 +19,7 @@ npx skills add yelban/camofox-browser-skills -s camofox-browser
 npx skills add yelban/camofox-browser-skills --list
 ```
 
-安裝後首次執行會下載 Camoufox 瀏覽器（約 300MB，僅需一次）：
-
-```bash
-bash ~/.claude/skills/camofox-browser/scripts/setup.sh
-```
+首次使用時會自動下載並安裝 Camoufox 瀏覽器（約 300MB，僅需一次）。不需要手動設定——直接執行任何 `camofox` 指令即可。
 
 ## 為什麼選 Camoufox？
 

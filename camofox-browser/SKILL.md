@@ -12,11 +12,7 @@ Stealth browser automation via Camoufox (Firefox fork). C++ level fingerprint sp
 
 ## Installation
 
-```bash
-bash ~/.claude/skills/camofox-browser/scripts/setup.sh
-```
-
-First run downloads Camoufox browser (~300MB, one-time).
+First use automatically downloads and installs the Camoufox browser (~300MB, one-time). No manual setup required — just run any `camofox` command.
 
 ## Quick Start
 

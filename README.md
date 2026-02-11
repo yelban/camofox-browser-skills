@@ -19,11 +19,7 @@ npx skills add yelban/camofox-browser-skills -s camofox-browser
 npx skills add yelban/camofox-browser-skills --list
 ```
 
-After installation, first run downloads the Camoufox browser (~300MB, one-time):
-
-```bash
-bash ~/.claude/skills/camofox-browser/scripts/setup.sh
-```
+First use automatically downloads and installs the Camoufox browser (~300MB, one-time). No manual setup required — just run any `camofox` command and it handles everything.
 
 ## Why Camoufox?
 
