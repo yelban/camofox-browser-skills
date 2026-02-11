@@ -6,6 +6,8 @@ Anti-detection browser automation skill for [Claude Code](https://claude.com/cla
 
 When standard browser tools (Playwright, Puppeteer) get blocked by Cloudflare, Akamai, or other bot detection systems, this skill gives Claude Code stealth browser automation capabilities.
 
+Built on top of [jo-inc/camofox-browser](https://github.com/jo-inc/camofox-browser) (npm: [`@askjo/camofox-browser`](https://www.npmjs.com/package/@askjo/camofox-browser)) — a Node.js server that manages Camoufox browser instances and exposes a REST API. This skill provides the Claude Code integration layer: CLI wrapper, skill definition, and documentation.
+
 ## Installation
 
 ```bash

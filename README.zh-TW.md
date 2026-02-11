@@ -6,6 +6,8 @@
 
 當標準瀏覽器工具（Playwright、Puppeteer）被 Cloudflare、Akamai 等機器人偵測系統擋下時，這個 skill 讓 Claude Code 具備隱匿瀏覽能力。
 
+基於 [jo-inc/camofox-browser](https://github.com/jo-inc/camofox-browser)（npm: [`@askjo/camofox-browser`](https://www.npmjs.com/package/@askjo/camofox-browser)）建構——一個管理 Camoufox 瀏覽器實例並提供 REST API 的 Node.js 伺服器。本專案提供 Claude Code 整合層：CLI 包裝、skill 定義與文件。
+
 ## 安裝
 
 ```bash
