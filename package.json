@@ -1,0 +1,19 @@
+{
+  "name": "@yelban/camofox-browser-skills",
+  "version": "1.0.0",
+  "description": "Anti-detection browser automation skill for Claude Code using Camoufox (Firefox fork)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yelban/camofox-browser-skills"
+  },
+  "keywords": [
+    "skills",
+    "claude-code",
+    "browser-automation",
+    "anti-detection",
+    "camoufox",
+    "stealth"
+  ],
+  "author": "yelban <yelban@gmail.com>",
+  "license": "MIT"
+}
