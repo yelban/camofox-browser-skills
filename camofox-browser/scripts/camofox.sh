@@ -86,11 +86,21 @@ ensure_server_running() {
         return 0
     fi
 
-    # Check if install exists
+    # Auto-install if not set up yet
     if [ ! -f "$INSTALL_DIR/start.sh" ]; then
-        echo "camofox-browser not installed. Run:" >&2
-        echo "  bash ~/.claude/skills/camofox-browser/scripts/setup.sh" >&2
-        exit 1
+        echo "camofox-browser not installed. Running setup..." >&2
+        local setup_script
+        setup_script="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/setup.sh"
+        if [ -f "$setup_script" ]; then
+            bash "$setup_script"
+            # setup.sh already starts the server, check if it's up
+            if curl -sf "$CAMOFOX_BASE/health" &>/dev/null; then
+                return 0
+            fi
+        else
+            echo "Setup script not found: $setup_script" >&2
+            exit 1
+        fi
     fi
 
     echo "Starting camofox server on port $CAMOFOX_PORT..." >&2
