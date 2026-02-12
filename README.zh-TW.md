@@ -2,6 +2,8 @@
 
 [English](README.md) | [繁體中文](README.zh-TW.md)
 
+![camofox-browser-skills](cover.jpg)
+
 為 [Claude Code](https://claude.com/claude-code) 打造的反偵測瀏覽器自動化 skill，基於 [Camoufox](https://camoufox.com/)——一款在 C++ 層級偽造指紋的 Firefox 分支。
 
 當標準瀏覽器工具（Playwright、Puppeteer）被 Cloudflare、Akamai 等機器人偵測系統擋下時，這個 skill 讓 Claude Code 具備隱匿瀏覽能力。

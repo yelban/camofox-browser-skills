@@ -2,6 +2,8 @@
 
 [English](README.md) | [繁體中文](README.zh-TW.md)
 
+![camofox-browser-skills](cover.jpg)
+
 Anti-detection browser automation skill for [Claude Code](https://claude.com/claude-code) using [Camoufox](https://camoufox.com/) — a Firefox fork with C++ level fingerprint spoofing.
 
 When standard browser tools (Playwright, Puppeteer) get blocked by Cloudflare, Akamai, or other bot detection systems, this skill gives Claude Code stealth browser automation capabilities.
